@@ -1,0 +1,24 @@
+:root { font-family: Inter, system-ui, Arial, sans-serif; }
+body { margin: 0; background: #0f172a; color: #e2e8f0; }
+.container { max-width: 980px; margin: 32px auto; padding: 0 16px; }
+.topbar { display: flex; align-items: center; gap: 12px; }
+.topbar .spacer { flex: 1; }
+.badge { background: #1e293b; padding: 6px 10px; border-radius: 12px; }
+.user { display: flex; align-items: center; gap: 10px; }
+.user button { padding: 6px 10px; }
+
+.card { background: #0b1220; border: 1px solid #1f2a44; border-radius: 12px; padding: 12px; margin: 16px 0; }
+.row { display: grid; grid-template-columns: 1.2fr 0.6fr 0.8fr 0.8fr 0.5fr; gap: 10px; }
+input, select, button { padding: 10px; border-radius: 8px; border: 1px solid #334155; background: #0b1220; color: #e2e8f0; }
+button { cursor: pointer; }
+button.danger { border-color: #7f1d1d; }
+.error { color: #f87171; margin-top: 8px; }
+
+.table-wrap { overflow: auto; border: 1px solid #1f2a44; border-radius: 12px; }
+table { width: 100%; border-collapse: collapse; }
+thead th, tbody td { padding: 12px; border-bottom: 1px solid #1f2a44; }
+thead th { position: sticky; top: 0; background: #111827; text-align: left; }
+tr.low { background: rgba(220, 38, 38, 0.12); }
+.qty { display: inline-flex; align-items: center; gap: 8px; }
+.qty button { width: 32px; }
+form .row button { background: #1d4ed8; border-color: #1d4ed8; }
